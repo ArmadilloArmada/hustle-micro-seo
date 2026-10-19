@@ -7,5 +7,7 @@ venv/
 config.yaml
 out/*
 !out/.gitkeep
+# Local export artifacts stay untracked (regenerate with `python -m src export`)
+out/export/
 .DS_Store
 .pytest_cache/

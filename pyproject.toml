@@ -1,7 +1,7 @@
 [project]
 name = "hustle-micro-seo"
 version = "0.1.0"
-description = "Micro-SEO content pack CLI: blog draft, GBP posts, FAQ schema from local business NAP."
+description = "Micro-SEO content pack CLI: generate, human-approve, and export WP/GBP paste pack (no auto-publish)."
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
