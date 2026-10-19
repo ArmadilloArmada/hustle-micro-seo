@@ -77,6 +77,10 @@ Export without approval is blocked unless you pass `--force` (not recommended).
 
 `config.example.yaml` includes a **fictional** Austin plumber (Clearflow Plumbing Co.) with NAP, services, and sample review blurbs. Replace with real client intake before any live use. Never invent licenses, awards, or testimonials.
 
+## Weekly schedule (GitHub Actions)
+
+Every Monday at **14:20 UTC**, [`.github/workflows/weekly-micro-seo.yml`](.github/workflows/weekly-micro-seo.yml) runs a **draft-only** pipeline (`python -m src --template-only`) and uploads artifact **`micro-seo-draft`** (no approve/export/publish). Download from the Actions run → **Artifacts**, unzip into `out/`, then approve + export locally.
+
 ## Compliance / E-E-A-T caution
 
 - **Google spam policies:** Thin, scaled, or unedited AI pages can hurt the site and the GBP. Publish only after a human edit with real experience signals (photos, specifics, accurate NAP).
