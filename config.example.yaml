@@ -1,0 +1,59 @@
+# Demo local plumber — fictional NAP for dry-runs. Replace with a real client
+# after human intake. Never invent credentials or claim unverified reviews.
+
+business:
+  name: "Clearflow Plumbing Co."
+  owner: "Maria Delgado"
+  phone: "(512) 555-0148"
+  email: "hello@clearflowplumbing.example"
+  website: "https://clearflowplumbing.example"
+  address:
+    street: "1842 Barton Springs Rd"
+    city: "Austin"
+    region: "TX"
+    postal_code: "78704"
+    country: "US"
+  geo:
+    latitude: 30.2642
+    longitude: -97.7713
+  categories:
+    - Plumbing contractor
+    - Emergency plumber
+    - Drain cleaning service
+  service_area:
+    - Austin
+    - South Austin
+    - Travis County
+  hours: "Mon–Sat 7:00–19:00; 24/7 emergency dispatch"
+  years_in_business: 12
+  license_note: "Texas Master Plumber (demo license #TX-MP-000000)"
+
+services:
+  - name: Emergency leak repair
+    keywords: ["burst pipe", "emergency plumber Austin"]
+  - name: Drain cleaning
+    keywords: ["clogged drain", "drain cleaning South Austin"]
+  - name: Water heater install
+    keywords: ["water heater replacement", "tankless installer Austin"]
+  - name: Fixture install
+    keywords: ["faucet install", "toilet replacement Austin"]
+
+# Paste real client testimonials only. These blurbs are fictional demo copy.
+reviews:
+  - author: "Jordan P."
+    rating: 5
+    text: "Maria showed up same day when our kitchen line backed up before guests arrived. Clear price, clean work, and they left the cabinet dry."
+  - author: "Sam R."
+    rating: 5
+    text: "Honest about whether we needed a full water heater swap. They saved us money with a repair first, then scheduled the install when it finally failed."
+  - author: "Alex M."
+    rating: 5
+    text: "South Austin drain cleaning done right — camera inspection included, no surprise fees."
+
+# Generation knobs
+content:
+  primary_city: "Austin"
+  primary_neighborhood: "South Austin"
+  blog_topic: "How to stop a small plumbing leak before it floods your kitchen"
+  tone: "practical, neighborly, no hype"
+  target_word_count: 700

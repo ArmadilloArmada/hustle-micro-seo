@@ -1,0 +1,21 @@
+[project]
+name = "hustle-micro-seo"
+version = "0.1.0"
+description = "Micro-SEO content pack CLI: blog draft, GBP posts, FAQ schema from local business NAP."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "PyYAML>=6.0.1",
+  "openai>=1.40.0",
+]
+
+[project.scripts]
+hustle-micro-seo = "src.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]
